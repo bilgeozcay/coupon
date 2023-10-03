@@ -5,7 +5,7 @@ Identifying a group of individuals to target with the objective of maximizing co
 * Reduce irrelevant coupons issued to customers to prevent customer frustration
 
 **Hypothesis:** By targeting specific groups of people, a very high coupon acceptance rate can be achieved for Coffee Houses.
-
+<br/>
 
 
 # Data Exploration and Cleaning
