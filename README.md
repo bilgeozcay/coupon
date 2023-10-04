@@ -15,7 +15,7 @@ Identifying a group of individuals to target, with the objective of maximizing c
 
 # Data Exploration and Cleaning
 
-Dataset was checked for duplicates, missing values and improper formatting. Findings are as follows:
+Dataset was checked for duplicates, missing values and improper formatting. Findings are summarized below.
 
 ### Duplicates
 74 duplicates were found. Given no unique identifier in the dataset (such as person’s ID or survey ID), it is assumed that those duplicates are valid survey responses. As such, they were kept in the dataset.
