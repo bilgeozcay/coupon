@@ -1,5 +1,10 @@
+# Will a Customer Accept the Coupon
+Imagine driving through town and a coupon is delivered to your cell phone for a restaraunt near where you are driving. Would you accept that coupon and take a short detour to the restaraunt? Would you accept the coupon but use it on a subsequent trip? Would you ignore the coupon entirely? What if the coupon was for a bar instead of a restaraunt? What about a coffee house? Would you accept a bar coupon with a minor passenger in the car? What about if it was just you and your partner in the car? Would weather impact the rate of acceptance? What about the time of day?
+
+To answer these questions, we will use a dataset from UCI Machine Learning repository and was collected via a survey on Amazon Mechanical Turk. 
+
 # Business Objective
-Identifying a group of individuals to target, with the objective of maximizing coupon acceptance rate for Coffee Houses. This way:
+Identifying a group of individuals to target, with the objective of maximizing coupon acceptance rate for Coffee Houses. This way we:
 * Maximize traffic to the Coffee Houses
 * Maximize return on investment on coupon issuance
 * Reduce irrelevant coupons issued to customers to prevent customer frustration
