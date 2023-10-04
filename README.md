@@ -94,6 +94,7 @@ To maximize the acceptance rate, the filters above are applied one by one on the
 
 Expiration date has an interesting behavior. Across all coffee house coupons, a coupon expiration of 1 day has a higher acceptance rate than 2 hours. However, for the specific dataset filtered by certain conditions as per group 5 (coffee house, destination, passenger, friends, weather, time), 2 hour expiration has a higher acceptance rate. This shows that the variables that behave at a certain way for the full dataset may behave differently for the pockets of the data
 
+Plot below compares acceptance rate for expiration date in the overall dataset versus the specific group 5.
 <img src="images/population_coupons_accepted.png" alt="fig1">
 <br/>
 <br/>
