@@ -46,7 +46,7 @@ Following mapping was used for data transformation:
 1000+ coupons were issued in the survey for each coupon type. Following is a breakdown of coupons issued.
 <img src="images/number_of_coupons_issued.png" alt="fig1">
 
-The acceptance rate of the coupons ranges from ~40% to ~75%.
+The acceptance rate of the coupons ranges from ~40% to ~75% based on the coupon category.
 <img src="images/percent_of_coupons_accepted.png" alt="fig1">
 
 Since **Coffee House** has the highest number of coupons and one of the categories with **less than 50% acceptance rate**, the **effort was focused on how to improve acceptance rate of this category**.
