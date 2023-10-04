@@ -106,7 +106,7 @@ The bar plot below provides us with a coupon acceptance rate, for various groups
 <br/>
 <br/>
 
-In summary, **by targeting Group 8, it is possible to achieve up to 95% coupon acceptance rate for Coffee Houses**. By targeting Groups 4 to 7, it is possible to achieve more than 80% coupon acceptance rate.
+In summary, **by targeting Group 8, it is possible to achieve up to 95% coupon acceptance rate for Coffee Houses**. By targeting Groups 4 to 7, it is possible to achieve more than 80% coupon acceptance rate. Using this methodology can significantly improve the coupon acceptance rates.
 <br/>
 <br/>
 
