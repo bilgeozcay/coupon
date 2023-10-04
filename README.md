@@ -1,5 +1,5 @@
 # Business Objective
-Identifying a group of individuals to target with the objective of maximizing coupon acceptance rate for Coffee Houses. This way:
+Identifying a group of individuals to target, with the objective of maximizing coupon acceptance rate for Coffee Houses. This way:
 * Maximize traffic to the Coffee Houses
 * Maximize return on investment on coupon issuance
 * Reduce irrelevant coupons issued to customers to prevent customer frustration
