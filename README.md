@@ -5,7 +5,6 @@ Identifying a group of individuals to target with the objective of maximizing co
 * Reduce irrelevant coupons issued to customers to prevent customer frustration
 
 **Hypothesis:** By targeting specific groups of people, a very high coupon acceptance rate can be achieved for Coffee Houses.
-<br/>
 
 
 # Data Exploration and Cleaning
@@ -43,21 +42,21 @@ Following mapping was used for data transformation:
 The acceptance rate of the coupons ranges from ~40% to ~75%.
 <img src="images/percent_of_coupons_accepted.png" alt="fig1">
 
-Since Coffee House has the highest number of coupons and one of the categories with less than 50% acceptance rate, the effort was focused on how to improve acceptance rate of this category.
+Since **Coffee House** has the highest number of coupons and one of the categories with **less than 50% acceptance rate**, the **effort was focused on how to improve acceptance rate of this category**.
 
 We will first investigate if customers who go to coffee house often are more likely to accept a coupon or not.
 
 Plot below shows us that customers who visit coffee houses have a higher chance of accepting the coupon.
 
-<img src="images/age_coupons_accepted.png" alt="fig1">
+<img src="images/coupon_acceptance_rate_violin.png" alt="fig1">
 
 Destination is also an important variable that drives the acceptance rate. Those who do not have an urgent place are much more likely to visit the coffee house. It also makes sense as those going home or work may get the coffee at their destination.
 
-<img src="images/age_coupons_accepted.png" alt="fig1">
+<img src="images/destination_coupons_accepted.png" alt="fig1">
 
 It is expected that all adult age groups would be likely to have similar behavior. This assumption is validated below. Although there is slight variance, those who accepted and not accepted the coupon does not vary much across age groups.
 
-<img src="images/age_coupons_accepted.png" alt="fig1">
+<img src="images/age_acceptance_kde.png" alt="fig1">
 
 
 Based on the analysis of each variable, the variables that affect the acceptance rate the most are summarized below.
@@ -78,14 +77,14 @@ To maximize the acceptance rate, the filters above are applied one by one on the
 
 Expiration date has an interesting behavior. Across all coffee house coupons, a coupon expiration of 1 day has a higher acceptance rate than 2 hours. However, for the specific dataset filtered by certain conditions as per group 5(coffee house, destination, passenger, friends, weather, time), 2 hour expiration has a higher acceptance rate. This shows that the variables that behave at a certain way for the full dataset may behave differently for the pockets of the data
 
-<img src="images/age_coupons_accepted.png" alt="fig1">
+<img src="images/population_coupons_accepted.png" alt="fig1">
 
 # Conclusion
 The bar plot below provides us with a coupon acceptance rate, for various groups of people described earlier. It compares the acceptance rate for the people in the group (orange) vs. the people outside of the group (blue).
 
-In summary, **by targeting Group 8, it is possible to achieve up to 95% coupon acceptance rate for Coffee Houses**. By targeting Groups 4 to 7, it is possible to achieve more than 80% coupon acceptance rate.
+<img src="images/coupon_acceptance_per_group.png" alt="fig1">
 
-<img src="images/age_coupons_accepted.png" alt="fig1">
+In summary, **by targeting Group 8, it is possible to achieve up to 95% coupon acceptance rate for Coffee Houses**. By targeting Groups 4 to 7, it is possible to achieve more than 80% coupon acceptance rate.
 
 # Next Steps and Recommendations
 The methodology here uses the effects of individual variables on the acceptance rate and combines them together, to find a target group with a high acceptance rate. However, for certain populations, there may be pockets of data, where this methodology may not work. As observed coupon “Expiration”, although 1 day expiration has a higher acceptance rate for the full dataset, for the subset of data that is investigated, 2 hour expiration gives us a better acceptance rate. So, alternative pockets of data should be further examined to maximize the population and acceptance rates.
