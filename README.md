@@ -88,7 +88,7 @@ Based on the analysis of each variable, the variables that affect the acceptance
 
 To maximize the acceptance rate, the filters above are applied one by one on the dataset. Acceptance results are presented for the specific dataset versus the rest of the dataset.
 * Group 1: Acceptance rate in those that go to coffee house 1 or more times vs. everyone else
-* Group 2: Acceptance rate in those that go to coffee house 1 or more times **and*** destination is not home
+* Group 2: Acceptance rate in those that go to coffee house 1 or more times **and** destination is not home
 * Group 3: Filter on existing CoffeeHouse and Destination filters **and add** passanger filter mentioned above.
 * Group 4 … 8: Continue to incrementally adding filters on the variables mentioned in the previous section
 
