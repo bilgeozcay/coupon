@@ -60,14 +60,20 @@ We will first investigate if customers who go to coffee house often are more lik
 Plot below shows us that customers who visit coffee houses have a higher chance of accepting the coupon.
 
 <img src="images/coupon_acceptance_rate_violin.png" alt="fig1">
+<br/>
+<br/>
 
 Destination is also an important variable that drives the acceptance rate. Those who do not have an urgent place are much more likely to visit the coffee house. It also makes sense as those going home or work may get the coffee at their destination.
 
 <img src="images/destination_coupons_accepted.png" alt="fig1">
+<br/>
+<br/>
 
 It is expected that all adult age groups would be likely to have similar behavior. This assumption is validated below. Although there is slight variance, those who accepted and not accepted the coupon does not vary much across age groups.
 
 <img src="images/age_acceptance_kde.png" alt="fig1">
+<br/>
+<br/>
 
 
 Based on the analysis of each variable, the variables that affect the acceptance rate the most are summarized below.
@@ -96,6 +102,8 @@ Expiration date has an interesting behavior. Across all coffee house coupons, a 
 The bar plot below provides us with a coupon acceptance rate, for various groups of people described earlier. It compares the acceptance rate for the people in the group (orange) vs. the people outside of the group (blue).
 
 <img src="images/coupon_acceptance_per_group.png" alt="fig1">
+<br/>
+<br/>
 
 In summary, **by targeting Group 8, it is possible to achieve up to 95% coupon acceptance rate for Coffee Houses**. By targeting Groups 4 to 7, it is possible to achieve more than 80% coupon acceptance rate.
 <br/>
