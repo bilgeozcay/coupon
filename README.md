@@ -88,9 +88,9 @@ Based on the analysis of each variable, the variables that affect the acceptance
 
 To maximize the acceptance rate, the filters above are applied one by one on the dataset. Acceptance results are presented for the specific dataset versus the rest of the dataset.
 * Group 1: Acceptance rate in those that go to coffee house 1 or more times vs. everyone else
-* Group 2: Acceptance rate in those that go to coffee house 1 or more times and destination is not home
-* Group 3: Filter on variable Pasenger in addition to CoffeeHouse and Destination
-* Group 4 … 8: Continue adding filters on the variables mentioned in the previous section
+* Group 2: Acceptance rate in those that go to coffee house 1 or more times **and*** destination is not home
+* Group 3: Filter on existing CoffeeHouse and Destination filters **and add** passanger filter mentioned above.
+* Group 4 … 8: Continue to incrementally adding filters on the variables mentioned in the previous section
 
 Expiration date has an interesting behavior. Across all coffee house coupons, a coupon expiration of 1 day has a higher acceptance rate than 2 hours. However, for the specific dataset filtered by certain conditions as per group 5(coffee house, destination, passenger, friends, weather, time), 2 hour expiration has a higher acceptance rate. This shows that the variables that behave at a certain way for the full dataset may behave differently for the pockets of the data
 
