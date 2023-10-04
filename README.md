@@ -100,7 +100,7 @@ Plot below compares acceptance rate for expiration date in the overall dataset v
 <br/>
 
 # Conclusion
-The bar plot below provides us with a coupon acceptance rate, for various groups of people described earlier. It compares the acceptance rate for the people in the group (orange) vs. the people outside of the group (blue).
+The bar plot below provides us with a coupon acceptance rate, for various groups of coupons described earlier. It compares the acceptance rate for the coupons in the group (orange) vs. the coupons outside of the group (blue).
 
 <img src="images/coupon_acceptance_per_group.png" alt="fig1">
 <br/>
