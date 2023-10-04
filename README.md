@@ -112,3 +112,5 @@ In summary, **by targeting Group 8, it is possible to achieve up to 95% coupon a
 
 # Next Steps and Recommendations
 The methodology here uses the effects of individual variables on the acceptance rate and combines them together, to find a target group with a high acceptance rate. However, for certain populations, there may be pockets of data, where this methodology may not work. As observed in coupon “Expiration”, although 1 day expiration has a higher acceptance rate overall, for the subset of data that is investigated, 2 hour expiration gives us a better acceptance rate. So, alternative pockets of data should be further examined to maximize the population and acceptance rates.
+
+It should also be noted that, as more filters are applied, the acceptance rate increases; however, the smaller the group of individuals becomes in parallel. As such, to increase the overall traffic to coffee houses, a balanced approach should be taken, that ensures minimal filters with maximum number of coupons accepted. This analysis can be expanded to find a balance that optimizes acceptance rate and number of individuals that will be reached.
